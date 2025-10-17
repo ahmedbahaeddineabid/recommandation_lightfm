@@ -1,4 +1,3 @@
-lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
 import pandas as pd
 import numpy as np
 from lightfm import LightFM
@@ -148,4 +147,5 @@ with open("cold_start_recommendations.json", "w") as f:
     json.dump(cold_start_recommendations, f, indent=4)
 
 print("Cold start recommendations saved to cold_start_recommendations.json")
+
 
