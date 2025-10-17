@@ -35,3 +35,9 @@ Matplotlib / Seaborn (for data visualization)
 
 📚 Use Case:
 Academic project demonstrating the application of machine learning in telecom personalization through a hybrid recommendation approach.
+
+HOW TO RUN ?????
+DOWLOUD THIS REPOSITORY THEN /
+           docker build -t YOUR8REPOSITORY8NAME .
+           docker run --rm -v ${PWD}:/app YOUR8REPOSITORY8NAME
+
