@@ -1,6 +1,5 @@
 ﻿FROM python:3.11-slim
 
-LABEL maintainer="toi <ton.email@example.com>"
 
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \
