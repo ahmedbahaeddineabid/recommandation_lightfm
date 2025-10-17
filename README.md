@@ -1,43 +1,97 @@
-LightFM-Based Hybrid Recommendation System for Telecom Operators
+# 📦 LightFM Recommendation System for Telecom Operators
 
-This project implements a hybrid recommendation system using the LightFM library, designed for telecommunication operators to optimize mobile plan assignment for customers.
+This project implements a **hybrid recommendation system** using [LightFM](https://making.lyst.com/lightfm/docs/home.html), designed for **telecom operators** to automatically suggest the most suitable mobile plans to clients — based on their usage patterns and similarities with other users.
 
-The system leverages both content-based and collaborative filtering techniques to recommend the most suitable plans to users, based on:
+---
 
-Individual usage behavior (calls, data, SMS, etc.)
+## 🚀 Features
 
-Similarity with other users’ profiles and preferences
+* ✅ Hybrid recommendation system (collaborative + content-based)
+* 📊 Personalized plan suggestions for each client
+* 🧠 Handles **cold-start** for new clients via JSON input
+* 💿 Fully **Dockerized setup** — no local Python install needed
+* 🧩 Outputs both CSV and JSON recommendation files
 
-🔍 Key Features:
+---
 
-Hybrid recommendation model (Collaborative + Content-based)
+## 🧮 Project Structure
 
-Built using LightFM for efficient model training and evaluation
+```
+📁 recommandation_lightfm/
+ ┣ 📜 Dockerfile
+ ┣ 📜 requirements.txt
+ ┣ 📜 lightfm_reco.py
+ ┣ 📜 clients.csv
+ ┣ 📜 plans.csv
+ ┣ 📜 subscriptions.csv
+ ┣ 📜 usage.csv
+ ┣ 📜 new_clients.json
+ ┗ 📜 README.md
+```
 
-Data preprocessing and feature engineering for telecom usage data
+---
 
-Evaluation metrics: precision@k, recall@k
+## ⚙️ How to Run This Project (with Docker)
 
-Scalable design for academic and enterprise applications
+### 1️⃣ Clone or Download the Repository
 
-🎯 Objective:
-Facilitate personalized plan assignment and enhance customer satisfaction through intelligent, data-driven recommendations.
+```bash
+git clone https://github.com/ahmedbahaeddineabid/recommandation_lightfm.git
+cd recommandation_lightfm
+```
 
-🧠 Technologies Used:
+—or download the ZIP and open a terminal (PowerShell, CMD, or VS Code) inside the project folder.
 
-Python
+---
 
-LightFM
+### 2️⃣ Build the Docker Image
 
-NumPy, Pandas, Scikit-learn
+```bash
+docker build -t recommandation_lightfm .
+```
 
-Matplotlib / Seaborn (for data visualization)
+---
 
-📚 Use Case:
-Academic project demonstrating the application of machine learning in telecom personalization through a hybrid recommendation approach.
+### 3️⃣ Run the Container
 
-HOW TO RUN ?????
-DOWLOUD THIS REPOSITORY THEN /
-           docker build -t YOUR8REPOSITORY8NAME .
-           docker run --rm -v ${PWD}:/app YOUR8REPOSITORY8NAME
+```bash
+docker run --rm -v ${PWD}:/app recommandation_lightfm
+```
 
+💡 This mounts your current folder into the container, so the generated result files will appear locally in the same directory.
+
+---
+
+## 🗂️ Output Files
+
+After running, two new files will be generated automatically:
+
+* `recommendations.csv` → top plan recommendations for **existing clients**
+* `cold_start_recommendations.json` → top plan recommendations for **new clients** (from `new_clients.json`)
+
+---
+
+## 📊 Dataset Overview
+
+| File                  | Description                                              |
+| --------------------- | -------------------------------------------------------- |
+| **clients.csv**       | Basic client data including segments and demographics    |
+| **plans.csv**         | Available mobile plans (IDs, names, prices, types, etc.) |
+| **subscriptions.csv** | Client subscriptions linking clients to plans            |
+| **usage.csv**         | Aggregated client usage data (data, calls, SMS)          |
+| **new_clients.json**  | Input file for cold-start predictions                    |
+
+---
+
+## 🧩 Requirements
+
+* [Docker Desktop](https://www.docker.com/products/docker-desktop/) installed and running
+* No need for local Python or libraries — **everything runs inside Docker**
+
+---
+
+## 👨‍💻 Author
+
+**Ahmed Baha Eddine Abid**
+📧 [ahmed.baha.eddine.abid@gmail.com](mailto:ahmed.baha.eddine.abid@gmail.com)
+🧠 Data Science & BI | Machine Learning | Telecom Analytics
