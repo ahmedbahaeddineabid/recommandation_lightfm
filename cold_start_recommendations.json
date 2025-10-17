@@ -1,0 +1,306 @@
+{
+    "1": [
+        {
+            "plan_id": 9,
+            "plan_name": "Postpaid Plan 9",
+            "plan_type": "Postpaid",
+            "price_tnd": 104.65,
+            "data_GB": 98,
+            "call_minutes": 200,
+            "sms_count": 200,
+            "valid_from": "2016-01-01",
+            "valid_to": "2025-12-31",
+            "recommended_segment": "Retired"
+        },
+        {
+            "plan_id": 11,
+            "plan_name": "Postpaid Plan 11",
+            "plan_type": "Postpaid",
+            "price_tnd": 23.79,
+            "data_GB": 98,
+            "call_minutes": 200,
+            "sms_count": 50,
+            "valid_from": "2016-01-01",
+            "valid_to": "2025-12-31",
+            "recommended_segment": "Retired"
+        },
+        {
+            "plan_id": 24,
+            "plan_name": "Postpaid Plan 24",
+            "plan_type": "Postpaid",
+            "price_tnd": 105.97,
+            "data_GB": 21,
+            "call_minutes": 0,
+            "sms_count": 200,
+            "valid_from": "2016-01-01",
+            "valid_to": "2025-12-31",
+            "recommended_segment": "Student"
+        }
+    ],
+    "2": [
+        {
+            "plan_id": 16,
+            "plan_name": "Hybrid Plan 16",
+            "plan_type": "Hybrid",
+            "price_tnd": 46.63,
+            "data_GB": 36,
+            "call_minutes": 1000,
+            "sms_count": 200,
+            "valid_from": "2016-01-01",
+            "valid_to": "2025-12-31",
+            "recommended_segment": "Student"
+        },
+        {
+            "plan_id": 23,
+            "plan_name": "Hybrid Plan 23",
+            "plan_type": "Hybrid",
+            "price_tnd": 7.24,
+            "data_GB": 93,
+            "call_minutes": 200,
+            "sms_count": 50,
+            "valid_from": "2016-01-01",
+            "valid_to": "2025-12-31",
+            "recommended_segment": "Student"
+        },
+        {
+            "plan_id": 18,
+            "plan_name": "Hybrid Plan 18",
+            "plan_type": "Hybrid",
+            "price_tnd": 48.89,
+            "data_GB": 120,
+            "call_minutes": 1000,
+            "sms_count": 100,
+            "valid_from": "2016-01-01",
+            "valid_to": "2025-12-31",
+            "recommended_segment": "Student"
+        }
+    ],
+    "3": [
+        {
+            "plan_id": 9,
+            "plan_name": "Postpaid Plan 9",
+            "plan_type": "Postpaid",
+            "price_tnd": 104.65,
+            "data_GB": 98,
+            "call_minutes": 200,
+            "sms_count": 200,
+            "valid_from": "2016-01-01",
+            "valid_to": "2025-12-31",
+            "recommended_segment": "Retired"
+        },
+        {
+            "plan_id": 24,
+            "plan_name": "Postpaid Plan 24",
+            "plan_type": "Postpaid",
+            "price_tnd": 105.97,
+            "data_GB": 21,
+            "call_minutes": 0,
+            "sms_count": 200,
+            "valid_from": "2016-01-01",
+            "valid_to": "2025-12-31",
+            "recommended_segment": "Student"
+        },
+        {
+            "plan_id": 23,
+            "plan_name": "Hybrid Plan 23",
+            "plan_type": "Hybrid",
+            "price_tnd": 7.24,
+            "data_GB": 93,
+            "call_minutes": 200,
+            "sms_count": 50,
+            "valid_from": "2016-01-01",
+            "valid_to": "2025-12-31",
+            "recommended_segment": "Student"
+        }
+    ],
+    "4": [
+        {
+            "plan_id": 23,
+            "plan_name": "Hybrid Plan 23",
+            "plan_type": "Hybrid",
+            "price_tnd": 7.24,
+            "data_GB": 93,
+            "call_minutes": 200,
+            "sms_count": 50,
+            "valid_from": "2016-01-01",
+            "valid_to": "2025-12-31",
+            "recommended_segment": "Student"
+        },
+        {
+            "plan_id": 16,
+            "plan_name": "Hybrid Plan 16",
+            "plan_type": "Hybrid",
+            "price_tnd": 46.63,
+            "data_GB": 36,
+            "call_minutes": 1000,
+            "sms_count": 200,
+            "valid_from": "2016-01-01",
+            "valid_to": "2025-12-31",
+            "recommended_segment": "Student"
+        },
+        {
+            "plan_id": 18,
+            "plan_name": "Hybrid Plan 18",
+            "plan_type": "Hybrid",
+            "price_tnd": 48.89,
+            "data_GB": 120,
+            "call_minutes": 1000,
+            "sms_count": 100,
+            "valid_from": "2016-01-01",
+            "valid_to": "2025-12-31",
+            "recommended_segment": "Student"
+        }
+    ],
+    "5": [
+        {
+            "plan_id": 7,
+            "plan_name": "Hybrid Plan 7",
+            "plan_type": "Hybrid",
+            "price_tnd": 66.67,
+            "data_GB": 97,
+            "call_minutes": 0,
+            "sms_count": 100,
+            "valid_from": "2016-01-01",
+            "valid_to": "2025-12-31",
+            "recommended_segment": "Retired"
+        },
+        {
+            "plan_id": 23,
+            "plan_name": "Hybrid Plan 23",
+            "plan_type": "Hybrid",
+            "price_tnd": 7.24,
+            "data_GB": 93,
+            "call_minutes": 200,
+            "sms_count": 50,
+            "valid_from": "2016-01-01",
+            "valid_to": "2025-12-31",
+            "recommended_segment": "Student"
+        },
+        {
+            "plan_id": 4,
+            "plan_name": "Hybrid Plan 4",
+            "plan_type": "Hybrid",
+            "price_tnd": 30.35,
+            "data_GB": 151,
+            "call_minutes": 200,
+            "sms_count": 0,
+            "valid_from": "2016-01-01",
+            "valid_to": "2025-12-31",
+            "recommended_segment": "Professional"
+        }
+    ],
+    "6": [
+        {
+            "plan_id": 9,
+            "plan_name": "Postpaid Plan 9",
+            "plan_type": "Postpaid",
+            "price_tnd": 104.65,
+            "data_GB": 98,
+            "call_minutes": 200,
+            "sms_count": 200,
+            "valid_from": "2016-01-01",
+            "valid_to": "2025-12-31",
+            "recommended_segment": "Retired"
+        },
+        {
+            "plan_id": 11,
+            "plan_name": "Postpaid Plan 11",
+            "plan_type": "Postpaid",
+            "price_tnd": 23.79,
+            "data_GB": 98,
+            "call_minutes": 200,
+            "sms_count": 50,
+            "valid_from": "2016-01-01",
+            "valid_to": "2025-12-31",
+            "recommended_segment": "Retired"
+        },
+        {
+            "plan_id": 24,
+            "plan_name": "Postpaid Plan 24",
+            "plan_type": "Postpaid",
+            "price_tnd": 105.97,
+            "data_GB": 21,
+            "call_minutes": 0,
+            "sms_count": 200,
+            "valid_from": "2016-01-01",
+            "valid_to": "2025-12-31",
+            "recommended_segment": "Student"
+        }
+    ],
+    "7": [
+        {
+            "plan_id": 27,
+            "plan_name": "Flybox Plan 27",
+            "plan_type": "Flybox",
+            "price_tnd": 55.38,
+            "data_GB": 133,
+            "call_minutes": 400,
+            "sms_count": 0,
+            "valid_from": "2016-01-01",
+            "valid_to": "2025-12-31",
+            "recommended_segment": "Professional"
+        },
+        {
+            "plan_id": 22,
+            "plan_name": "Flybox Plan 22",
+            "plan_type": "Flybox",
+            "price_tnd": 92.69,
+            "data_GB": 139,
+            "call_minutes": 1000,
+            "sms_count": 0,
+            "valid_from": "2016-01-01",
+            "valid_to": "2025-12-31",
+            "recommended_segment": "Retired"
+        },
+        {
+            "plan_id": 20,
+            "plan_name": "Flybox Plan 20",
+            "plan_type": "Flybox",
+            "price_tnd": 55.0,
+            "data_GB": 117,
+            "call_minutes": 0,
+            "sms_count": 100,
+            "valid_from": "2016-01-01",
+            "valid_to": "2025-12-31",
+            "recommended_segment": "Professional"
+        }
+    ],
+    "8": [
+        {
+            "plan_id": 10,
+            "plan_name": "Postpaid Plan 10",
+            "plan_type": "Postpaid",
+            "price_tnd": 47.57,
+            "data_GB": 54,
+            "call_minutes": 200,
+            "sms_count": 0,
+            "valid_from": "2016-01-01",
+            "valid_to": "2025-12-31",
+            "recommended_segment": "Professional"
+        },
+        {
+            "plan_id": 25,
+            "plan_name": "Postpaid Plan 25",
+            "plan_type": "Postpaid",
+            "price_tnd": 19.77,
+            "data_GB": 122,
+            "call_minutes": 1000,
+            "sms_count": 50,
+            "valid_from": "2016-01-01",
+            "valid_to": "2025-12-31",
+            "recommended_segment": "Retired"
+        },
+        {
+            "plan_id": 24,
+            "plan_name": "Postpaid Plan 24",
+            "plan_type": "Postpaid",
+            "price_tnd": 105.97,
+            "data_GB": 21,
+            "call_minutes": 0,
+            "sms_count": 200,
+            "valid_from": "2016-01-01",
+            "valid_to": "2025-12-31",
+            "recommended_segment": "Student"
+        }
+    ]
+}
